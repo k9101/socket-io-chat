@@ -1,0 +1,30 @@
+html, body, #contain{
+  padding: 0;
+  margin: 0;
+}
+
+.makeUserName #createUserName {
+  display: flex;
+}
+.makeUserName #contain {
+  display: none;
+}
+
+#createUserName {
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#main {
+  padding: 1em 0;
+  background: #fafafa;
+}
+
+#sidebar {
+  background: #424242;
+  color: white;
+  height: 100vh;
+}
