@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Socket.io Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
@@ -13,11 +14,11 @@
 
     <div id='createUserName' >
 
-      <div class="card blue-grey darken-1 z-depth-2" style="width: 40%;">
+      <div class="card blue-grey darken-1 z-depth-2" style="width: 60%;">
         <form id="createUserNameForm">
           <div class="card-content white-text">
             <span class="card-title">Create Username</span>
-              <input type="text" name="username" placeholder="Enter username">
+              <input type="text" name="username" id='username' placeholder="Enter username">
           </div>
           <div class="card-action">
             <a id='submitButton' href="#">Submit</a>
@@ -43,7 +44,7 @@
             <textarea id="message" class="materialize-textarea" placeholder="Enter a Message"></textarea>
             <label for="message">Chat</label>
           </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+          <button class="btn waves-effect waves-light right blue-grey darken-1" type="submit" name="action">Submit</button>
         </form>
       </div>
     </div>

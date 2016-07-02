@@ -16,10 +16,11 @@ html, body, #contain{
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: #cfd8dc;
 }
 
 #main {
-  padding: 1em 0;
+  padding: 1em;
   background: #fafafa;
 }
 
@@ -27,4 +28,23 @@ html, body, #contain{
   background: #424242;
   color: white;
   height: 100vh;
+}
+
+#sidebar .collection {
+  border: none;
+}
+
+.bubble {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.bubble-left {
+  border-radius: 20px 20px 20px 5px;
+  margin-right: 2em;
+}
+
+.bubble-right {
+  border-radius: 20px 20px 5px 20px;
+  margin-left: 2em
 }
