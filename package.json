@@ -1,0 +1,23 @@
+{
+  "name": "socket-io-chat",
+  "version": "1.0.0",
+  "description": "A simple chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k9101/socket-io-chat.git"
+  },
+  "author": "Kris Penney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k9101/socket-io-chat/issues"
+  },
+  "homepage": "https://github.com/k9101/socket-io-chat#readme",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  }
+}
